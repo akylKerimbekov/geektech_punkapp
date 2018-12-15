@@ -12,6 +12,7 @@ import android.view.ViewGroup;
  * Created by askar on 12/15/18
  * with Android Studio
  */
+//TODO: All setup is in your hands
 public class BeerDetailsFragment extends Fragment {
     @Nullable
     @Override

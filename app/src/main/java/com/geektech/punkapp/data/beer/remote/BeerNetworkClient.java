@@ -12,6 +12,7 @@ import retrofit2.http.Query;
  * Created by askar on 12/15/18
  * with Android Studio
  */
+//TODO: Add remaining API calls
 public interface BeerNetworkClient {
 
     @GET(BeerRemoteConfig.BEERS_URL)

@@ -17,12 +17,16 @@ public class BeerRepository implements BeerDataSource {
     @Nullable
     private BeerDataSource mRemote;
 
+    //region Constructor
+
     private BeerRepository(
             @Nullable BeerDataSource mLocal,
             @Nullable BeerDataSource mRemote) {
         this.mLocal = mLocal;
         this.mRemote = mRemote;
     }
+
+    //endregion
 
     //region Static
 
