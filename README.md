@@ -1,5 +1,5 @@
 # Android 3 level GeekTech Base Architecture study project.
-### Project themes: Simple architecture, Retrofit, Realm, Recycler.
+### Project themes: Basic architecture, Retrofit, Realm, Recycler.
 
 ## Tasks:
     * Создать форк репозитория у себя на аккаунте
@@ -9,22 +9,21 @@
     * Кэширование данных с помощью Realm-a
     * Все изменения не забывать пушить в реп, по окончанию всех задач, написать автору 
     
-#### Если вдруг что то будет не понятно попробуйте следоавать меткам TODO
+#### Если вдруг что то будет не понятно следуйте меткам TODO
 
-#### P.S. Можете самостоятельно добавлять доп. слои, реализовать Presentation слой с помощью MVP, MVVM
+#### P.S. Можете самостоятельно добавлять доп. слои, реализовать Presentation слой с помощью MVP, MVVM и использовать тот стэк технологий которым владеете на данный момент
     
-## Полезные ссылки:
-    ###Retrofit:
-    
-    
-    ###Realm:
-    
-    
-    
-    ###Recycler:
-    
-    
-    
-    ###Image loading:
+#### Retrofit:
+    * [Оффициальная докумантация](https://square.github.io/retrofit/)
+
+#### Realm:
+    * [Оффициальная документация]()
+
+#### Recycler:
+    * [Оффициальная документация]()
+
+#### Image loading:
+    * [Оффициальная документация]()
+
     
     
