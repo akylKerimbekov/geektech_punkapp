@@ -3,10 +3,10 @@
 
 ## Tasks:
    * Создать [Fork](#header_fork) репозитория у себя на аккаунте
-   * Реализация запросов c использованием [Retrofit](#retrofit:), желательно ко всем имеющимся методам 
-   * Отображение списка пришедших данных в [Recycler-e](#recycler:) (верстка и поля отображаемых данных по вашему усмотрению)
+   * Реализация запросов c использованием [Retrofit](#header_retrofit), желательно ко всем имеющимся методам 
+   * Отображение списка пришедших данных в [Recycler-e](#header_recycler) (верстка и поля отображаемых данных по вашему усмотрению)
    * При клике на элемент списка, открывать доп. экран с выбранным элементом
-   * Кэширование данных с помощью [Realm-a](#realm:)
+   * Кэширование данных с помощью [Realm-a](#header_realm)
    * Все изменения регулярно пушить в свой форкнутый реп, по окончанию всех задач, написать преподавателю 
     
 #### Ссылка на документацию по API - [Punk API docs](https://punkapi.com/documentation/v2)
@@ -17,14 +17,14 @@
 
 #### <a name="header_fork">[Статья с объяснением что такое Fork на Github](http://gearmobile.github.io/git/fork-github/)</a>
 
-#### Retrofit:
+#### <a name="header_retrofit"></a>Retrofit:
 - [Оффициальная документация](https://square.github.io/retrofit/)
 - [Пример реализации - Habr](https://habr.com/post/314028/)
 
-#### Realm:
+#### <a name="header_realm"></a>Realm:
 - [Оффициальная документация](https://realm.io/docs/java/latest/)
 
-#### Recycler:
+#### <a name="header_recycler"></a>Recycler:
 - [Оффициальная документация](https://developer.android.com/guide/topics/ui/layout/recyclerview)
 - [Статья c примером реализации - Devсolibri](https://devcolibri.com/%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-%D1%81-recyclerview/)
 
