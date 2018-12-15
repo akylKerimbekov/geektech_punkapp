@@ -1,0 +1,11 @@
+package com.geektech.punkapp.data.beer.remote;
+
+/**
+ * Created by askar on 12/15/18
+ * with Android Studio
+ */
+class BeerRemoteConfig {
+    static final String BASE_URL = "https://api.punkapi.com";
+    static final String API_VERSION = "/v2";
+    static final String BEERS_URL = API_VERSION + "/beers";
+}
