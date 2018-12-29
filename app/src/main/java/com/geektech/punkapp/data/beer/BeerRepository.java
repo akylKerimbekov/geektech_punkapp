@@ -48,6 +48,21 @@ public class BeerRepository implements BeerDataSource {
     @Override
     public void getBeerList(BeerListCallback callback) {
         //TODO: Call remote data source, and write response data to local data source
+        if (mRemote != null) {
+            mRemote.getBeerList(new BeerListCallback() {
+                @Override
+                public void onSuccess(ArrayList<Beer> beers) {
+                    callback.onSuccess(beers);
+                }
+
+                @Override
+                public void onError(Exception e) {
+                    callback.onError(e);
+                }
+            });
+        } else {
+            callback.onError(new Exception("ololo remote is null"));
+        }
     }
 
     @Nullable
