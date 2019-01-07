@@ -16,7 +16,6 @@ import com.geektech.punkapp.data.RepositoryProvider;
 import com.geektech.punkapp.data.beer.BeerDataSource;
 import com.geektech.punkapp.data.beer.model.Beer;
 import com.geektech.punkapp.presentation.beerdetails.BeerDetailsActivity;
-import com.geektech.punkapp.presentation.beerdetails.BeerDetailsFragment;
 import com.geektech.punkapp.presentation.beerlist.recycler.BeerListAdapter;
 import com.geektech.punkapp.presentation.beerlist.recycler.BeerListViewHolder;
 

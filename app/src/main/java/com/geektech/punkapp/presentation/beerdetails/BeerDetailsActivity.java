@@ -17,11 +17,11 @@ public class BeerDetailsActivity extends AppCompatActivity {
 
     private static String EXTRA_BEER_ID = "beer_id";
 
-    public static void start(Activity activity, int id){
+    public static void start(Activity activity, long id){
         activity.startActivity(intent(activity, id));
     }
 
-    public static Intent intent(Context context, int id){
+    public static Intent intent(Context context, long id){
         Intent intent = new Intent(context, BeerDetailsActivity.class);
         intent.putExtra(EXTRA_BEER_ID, id);
         return intent;

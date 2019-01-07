@@ -52,6 +52,9 @@ public class BeerRepository implements BeerDataSource {
             mRemote.getBeerList(new BeerListCallback() {
                 @Override
                 public void onSuccess(ArrayList<Beer> beers) {
+                    if(mLocal != null) {
+                        mLocal.setBeerList(beers);
+                    }
                     callback.onSuccess(beers);
                 }
 

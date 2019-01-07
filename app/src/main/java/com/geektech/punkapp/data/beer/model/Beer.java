@@ -8,7 +8,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public class Beer {
     @SerializedName("id")
-    private int id;
+    private long id;
 
     @SerializedName("name")
     private String name;
@@ -21,11 +21,7 @@ public class Beer {
 
     //region Constructors
 
-    public Beer(
-            int id,
-            String name,
-            String description,
-            String imageUrl) {
+    public Beer() {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -37,11 +33,11 @@ public class Beer {
 
     //region Getters/Setters
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
